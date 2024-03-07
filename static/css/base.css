@@ -8,6 +8,7 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
+    
 }
 
 /* from Bulma */
@@ -34,7 +35,7 @@ body {
 }
 
 .btn-black {
-    background: black;
+    background: rgba(165, 42, 42, 0.827);
     color: white;
 }
 
@@ -44,7 +45,7 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: rgba(165, 42, 42, 0.827);
     color: white;
 }
 
