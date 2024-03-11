@@ -15,16 +15,18 @@
             <a class="logo-font font-weight-bold nav-link text-light mr-5 navbar-link" href="#" id="all-products-links" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Menu</a>
                  <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                    <a href="#" class="dropdown-item">A</a>
-                    <a href="#" class="dropdown-item ">C</a>
-                    <a href="#" class="dropdown-item ">Co</a>
+                    <a href="{% url 'products' %}?category=coffees" class="dropdown-item ">Hot-coffee</a>
+                    <a href="{% url 'products' %}?category=smoothies" class="dropdown-item">Smoothies</a>
+                    <a href="{% url 'products' %}?category=coldcoffee" class="dropdown-item ">Cold-coffee</a>
+                    <a href="{% url 'products' %}?category=fikabread" class="dropdown-item ">Fika bread</a>
+
         </li>
         <li class="nav-item dropdown" id="special-offer-link">
             <a class="logo-font font-weight-bold nav-link text-light mr-5 navbar-link" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="#" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
             </div>
         </li>
         <li class="nav-item" id="contactus-link">
