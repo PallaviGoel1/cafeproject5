@@ -1,0 +1,142 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "sku": "pg0012",
+            "name": "Black coffee",
+            
+            "description": "Black. Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm",
+            "price": 35.45,
+            "rating": 4.5,
+            "image": "blackcoffee.jpg"
+            
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "sku": "pg0022",
+            "name": "Cappuccino",
+            
+            "description": "A cappuccino contains equal parts of espresso, steamed and milk froth.",
+            "price": 36.70,
+            "rating": 4.4,
+            "image": "cappuccino.jpg"
+            
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "sku": "pg0024",
+            "name": "Americano",
+            
+            "description": "An Americano is therefore a black coffee — unless you add milk!",
+            "price": 34.70,
+            "rating": 4.5,
+            "image": "Americano.jpg"
+            
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "sku": "pg0026",
+            "name": "Turkish delight coffee",
+            
+            "description": " Turkish coffee is unique for its fine grind, special brewing method, and cultural significance.",
+            "price": 34.50,
+            "rating": 4.0,
+            "image": "turkishcoffee.jpg"
+            
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "category": 1,
+            "sku": "pg0028",
+            "name": "Doppio coffee",
+            
+            "description": "Doppio espresso is a double shot which is extracted using double the amount of ground coffee in a larger-sized portafilter basket. This results in 60 ml of drink, double the amount of a single shot espresso.",
+            "price": 35.50,
+            "rating": 4.3,
+            "image": "dopplacoffee.jpg"
+            
+        }
+    },
+    {
+        "pk": 6,
+            "model": "products.product",
+            "fields": {
+                "category": 1,
+                "sku": "pg0030",
+                "name": "Expresso Coffee",
+                
+                "description": "Espresso is a coffee-brewing method in which a small amount of nearly boiling water is forced under pressure through finely ground coffee beans.",
+                "price": 36.59,
+                "rating": 4.5,
+                "image": "expresso.jpg"
+                
+            }
+    },
+
+    {
+        "pk": 7,
+                "model": "products.product",
+                "fields": {
+                    "category": 1,
+                    "sku": "pg0032",
+                    "name": "Irish Coffee",
+                    
+                    "description": "Irish coffee is a caffeinated alcoholic drink consisting of Irish whiskey, hot coffee and sugar, which has been stirred and topped with cream. The coffee is drunk through the cream.",
+                    "price": 32.59,
+                    "rating": 4.0,
+                    "image": "irishcoffee.jpg"
+                    
+                }
+    },
+
+    {
+        "pk": 8,
+                "model": "products.product",
+                "fields": {
+                    "category": 1,
+                    "sku": "pg0034",
+                    "name": "Latte Coffee",
+                    
+                    "description": " This espresso is then combined with several ounces of steamed milk to create a rich, creamy beverage that has a more subtle espresso taste. The typical ratio for espresso to steamed milk is about 1-to-2.",
+                    "price": 35.59,
+                    "rating": 4.6,
+                    "image": "latte.jpg"
+                    
+                }
+    },
+
+    {
+        "pk": 9,
+                "model": "products.product",
+                "fields": {
+                    "category": 1,
+                    "sku": "pg0036",
+                    "name": "Swedish Egg Coffee",
+                    
+                    "description": "Traditional Swedish egg coffee is made by cracking an entire egg, including the shell, into a cup, mixing the egg with ground coffee, and then letting the mixture simmer on the stove. The idea is for the egg to remove impurities from the coffee, resulting in a smoother cup of coffee.",
+                    "price": 35.59,
+                    "rating": 4.8,
+                    "image": "swedisheggcoffee.jpg"
+                
+                }
+    }
+
+]    
+
