@@ -4,13 +4,12 @@
         "model": "products.product",
         "fields": {
             "category": 1,
-            "sku": "pg0012",
+            "sku": "pg0020",
             "name": "Black coffee",
-            
             "description": "Black. Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm",
             "price": 35.45,
             "rating": 4.5,
-            "image": "blackcoffee.jpg"
+            "image": "blackcoffee.png"
             
         }
     },
@@ -21,7 +20,6 @@
             "category": 1,
             "sku": "pg0022",
             "name": "Cappuccino",
-            
             "description": "A cappuccino contains equal parts of espresso, steamed and milk froth.",
             "price": 36.70,
             "rating": 4.4,
@@ -36,7 +34,6 @@
             "category": 1,
             "sku": "pg0024",
             "name": "Americano",
-            
             "description": "An Americano is therefore a black coffee — unless you add milk!",
             "price": 34.70,
             "rating": 4.5,
@@ -51,7 +48,6 @@
             "category": 1,
             "sku": "pg0026",
             "name": "Turkish delight coffee",
-            
             "description": " Turkish coffee is unique for its fine grind, special brewing method, and cultural significance.",
             "price": 34.50,
             "rating": 4.0,
@@ -66,11 +62,10 @@
             "category": 1,
             "sku": "pg0028",
             "name": "Doppio coffee",
-            
             "description": "Doppio espresso is a double shot which is extracted using double the amount of ground coffee in a larger-sized portafilter basket. This results in 60 ml of drink, double the amount of a single shot espresso.",
             "price": 35.50,
             "rating": 4.3,
-            "image": "dopplacoffee.jpg"
+            "image": "dopplacoffee.jpeg"
             
         }
     },
@@ -81,11 +76,10 @@
                 "category": 1,
                 "sku": "pg0030",
                 "name": "Expresso Coffee",
-                
                 "description": "Espresso is a coffee-brewing method in which a small amount of nearly boiling water is forced under pressure through finely ground coffee beans.",
                 "price": 36.59,
                 "rating": 4.5,
-                "image": "expresso.jpg"
+                "image": "espressocoffee.jpg"
                 
             }
     },
@@ -97,7 +91,6 @@
                     "category": 1,
                     "sku": "pg0032",
                     "name": "Irish Coffee",
-                    
                     "description": "Irish coffee is a caffeinated alcoholic drink consisting of Irish whiskey, hot coffee and sugar, which has been stirred and topped with cream. The coffee is drunk through the cream.",
                     "price": 32.59,
                     "rating": 4.0,
@@ -113,7 +106,6 @@
                     "category": 1,
                     "sku": "pg0034",
                     "name": "Latte Coffee",
-                    
                     "description": " This espresso is then combined with several ounces of steamed milk to create a rich, creamy beverage that has a more subtle espresso taste. The typical ratio for espresso to steamed milk is about 1-to-2.",
                     "price": 35.59,
                     "rating": 4.6,
@@ -129,14 +121,488 @@
                     "category": 1,
                     "sku": "pg0036",
                     "name": "Swedish Egg Coffee",
-                    
                     "description": "Traditional Swedish egg coffee is made by cracking an entire egg, including the shell, into a cup, mixing the egg with ground coffee, and then letting the mixture simmer on the stove. The idea is for the egg to remove impurities from the coffee, resulting in a smoother cup of coffee.",
+                    "price": 36.59,
+                    "rating": 4.6,
+                    "image": "swedisheggcoffee.jpeg"
+                
+                }
+    },
+    {
+        "pk": 10,
+                "model": "products.product",
+                "fields": {
+                    "category": 1,
+                    "sku": "pg0038",
+                    "name": "Mocha Coffee",
+                    "description": "The basis is that a shot of espresso is combined with a chocolate powder or syrup, followed by milk or cream. It is a variant of a latte, in the sense that it is often 1/3 espresso and 2/3 steamed milk.",
+                    "price": 32.59,
+                    "rating": 4.2,
+                    "image": "mochacoffee.png"
+                
+                }
+    },
+    {
+        "pk": 11,
+                "model": "products.product",
+                "fields": {
+                    "category": 1,
+                    "sku": "pg0040",
+                    "name": "Conpanna coffee",
+                    "description": "Con panna, which means (espresso with cream) in Italian, is a single or double shot of espresso topped with whipped cream. In France and in the United Kingdom it is known as café viennois.",
+                    "price": 34.39,
+                    "rating": 4.2,
+                    "image": "conpannacoffee.jpg"
+                
+                }
+    },
+    {
+        "pk": 12,
+                "model": "products.product",
+                "fields": {
+                    "category": 1,
+                    "sku": "pg080",
+                    "name": "Black Tea",
+                    "description": "loose leaf black tea,water,Optional flavorings: slice of lemon, sweetener, honey, or milk", 
+                    "price": 36.59,
+                    "rating": 4.8,
+                    "image": "cupoftea.jpg"
+                
+                }
+    },
+    {
+        "pk": 13,
+                "model": "products.product",
+                "fields": {
+                    "category": 2,
+                    "sku": "pg0010",
+                    "name": "Bananasmoothie",
+                    "description": "Add the sliced banana, peanut butter, brown sugar, vanilla extract, and milk to a blender.Blend the ingredients until smooth. If the smoothie is too thick, add more milk. If the smoothie is too thin, add more frozen banana. Taste and adjust the sweetness to your liking.",
+                    "price": 31.59,
+                    "rating": 4.4,
+                    "image": "bananasmoothie.jpg"
+                
+                }
+    },
+    {
+        "pk": 14,
+                "model": "products.product",
+                "fields": {
+                    "category": 2,
+                    "sku": "pg0012",
+                    "name": "Blueberry Smoothie",
+                    "description": "Add the sliced banana, peanut butter, brown sugar, vanilla extract, and milk to a blender.Blend the ingredients until smooth. If the smoothie is too thick, add more milk. If the smoothie is too thin, add more frozen banana. Taste and adjust the sweetness to your liking.",
+                    "price": 32.59,
+                    "rating": 4.5,
+                    "image": "blueberrysmoothie.jpg"
+                
+                }
+    },
+    {
+        "pk": 15,
+                "model": "products.product",
+                "fields": {
+                    "category": 2,
+                    "sku": "pg0014",
+                    "name": "Mango Smoothie",
+                    "description": "Add the sliced banana, peanut butter, brown sugar, vanilla extract, and milk to a blender.Blend the ingredients until smooth. If the smoothie is too thick, add more milk. If the smoothie is too thin, add more frozen banana. Taste and adjust the sweetness to your liking.",
+                    "price": 32.69,
+                    "rating": 4.4,
+                    "image": "mangosmoothie.jpg"
+                
+                }
+    },
+    {
+        "pk": 16,
+                "model": "products.product",
+                "fields": {
+                    "category": 2,
+                    "sku": "pg0016",
+                    "name": "Strawberry Smoothie",
+                    "description": "n a blender or food processor, place the strawberries, milk and yogurt. Cover; blend on high speed about 30 seconds or until smooth. Pour into glasses. Garnish each with a strawberry.",
+                    "price": 34.59,
+                    "rating": 4.3,
+                    "image": "strawberry.jpg"
+                
+                }
+    },
+    {
+        "pk": 17,
+                "model": "products.product",
+                "fields": {
+                    "category": 3,
+                    "sku": "pg0018",
+                    "name": "Bubble Tea",
+                    "description": "Bubble tea is a Taiwanese recipe made by blending a tea base with milk, fruit and fruit juices, then adding the signature “bubbles” - yummy tapioca pearls that sit at the bottom.",
+                    "price": 30.59,
+                    "rating": 4.4,
+                    "image": "BubbleTea.jpg"
+                
+                }
+    },
+    {
+        "pk": 18,
+                "model": "products.product",
+                "fields": {
+                    "category": 3,
+                    "sku": "pg0008",
+                    "name": "Coffee Milkshake",
+                    "description": "Milk, ice cream or iced milk, emulsifier and/or stabilizer, and flavorings or sweeteners (e.g., fruit syrup or chocolate sauce)",
+                    "price": 30.59,
+                    "rating": 4.4,
+                    "image": "coffeemilkshake.jpg"
+                
+                }
+    },
+    {
+        "pk": 19,
+                "model": "products.product",
+                "fields": {
+                    "category": 3,
+                    "sku": "pg0006",
+                    "name": "Coffee Mocha",
+                    "description": "An espresso-based drink with whipped cream, steamed milk, chocolate syrup",
                     "price": 35.59,
                     "rating": 4.8,
-                    "image": "swedisheggcoffee.jpg"
+                    "image": "coffeemocha.jpg"
+                
+                }
+    },
+    {
+        "pk": 20,
+                "model": "products.product",
+                "fields": {
+                    "category": 3,
+                    "sku": "pg0004",
+                    "name": "Ice Coffee Matcha",
+                    "description": "Ingredients. Milk, Ice, Matcha Tea Blend [Sugar, Ground Japanese Green Tea].0",
+                    "price": 32.59,
+                    "rating": 4.5,
+                    "image": "IcedMatcha.jpg"
+                
+                }
+    },
+    {
+        "pk": 21,
+                "model": "products.product",
+                "fields": {
+                    "category": 3,
+                    "sku": "pg0002",
+                    "name": "Iced Coffee",
+                    "description": "WATER, COFFEE EXTRACT, SUGAR, MILK POWDER",
+                    "price": 30.49,
+                    "rating": 4.5,
+                    "image": "Icedcoffee.jpg"
+                
+                }
+    },
+    {
+        "pk": 22,
+                "model": "products.product",
+                "fields": {
+                    "category": 3,
+                    "sku": "pg0000",
+                    "name": "Pink Iced Coffee",
+                    "description": "Espresso, milk, beets, cinnamon, honey and vanilla.",
+                    "price": 33.59,
+                    "rating": 4.2,
+                    "image": "pinkdrink.jpg"
+                
+                }
+    },
+    {
+        "pk": 23,
+                "model": "products.product",
+                "fields": {
+                    "category": 4,
+                    "sku": "pg0042",
+                    "name": "Watermelon drink",
+                    "description": "",
+                    "price": 30.59,
+                    "rating": 4.5,
+                    "image": "summer1.jpg"
+                
+                }
+    },
+    {
+        "pk": 24,
+                "model": "products.product",
+                "fields": {
+                    "category": 4,
+                    "sku": "pg0044",
+                    "name": "Melon drink",
+                    "description": "Melon,granulated white sugar,water,vanilla extract, Ice cubes",
+                    "price": 31.59,
+                    "rating": 4.0,
+                    "image": "summer2.jpg"
+                
+                }
+    },
+    {
+        "pk": 25,
+                "model": "products.product",
+                "fields": {
+                    "category": 4,
+                    "sku": "pg0046",
+                    "name": "Citrus drink",
+                    "description": "water, sugars, organic acids (principally citric acid) and small amounts of amino acids, vitamins and phenolic compounds.",
+                    "price": 32.59,
+                    "rating": 4.2,
+                    "image": "summer3.jpg"
+                
+                }
+    },
+    {
+        "pk": 26,
+                "model": "products.product",
+                "fields": {
+                    "category": 4,
+                    "sku": "pg0048",
+                    "name": "Lemonadepunch drink",
+                    "description": "lemon juice, water, and a sweetener such as cane sugar, simple syrup, maple syrup or honey",
+                    "price": 29.59,
+                    "rating": 4.2,
+                    "image": "summer4.jpg"
+                
+                }
+    },
+    {
+        "pk": 27,
+                "model": "products.product",
+                "fields": {
+                    "category": 4,
+                    "sku": "pg0050",
+                    "name": "Cucumberlime drink",
+                    "description": "1 thinly sliced English cucumber in a pitcher. For still infused water, add 2 quarts of water. For sparkling water, add 1 quart of seltzer during prep and a second quart just before serving.",
+                    "price": 28.59,
+                    "rating": 4.0,
+                    "image": "summer5.jpg"
+                
+                }
+    },
+    {
+        "pk": 28,
+                "model": "products.product",
+                "fields": {
+                    "category": 4,
+                    "sku": "pg0052",
+                    "name": "Grape drink",
+                    "description": "Grape Juice from Concentrate (Filtered Water, Grape Juice Concentrate), Grape Juice, Ascorbic Acid (Vitamin C), Citric Acid (for Tartness).",
+                    "price": 29.59,
+                    "rating": 4.1,
+                    "image": "summer6.jpg"
+                
+                }
+    },
+    {
+        "pk": 29,
+                "model": "products.product",
+                "fields": {
+                    "category": 4,
+                    "sku": "pg0054",
+                    "name": "Blueberry drink",
+                    "description": "fresh blueberries, white sugar, or to taste ,freshly squeezed lime juice, water, or more as needed",
+                    "price": 29.59,
+                    "rating": 4.2,
+                    "image": "summer7.jpg"
+                
+                }
+    },
+    {
+        "pk": 30,
+                "model": "products.product",
+                "fields": {
+                    "category": 5,
+                    "sku": "pg0056",
+                    "name": "Tosca Cake",
+                    "description": "sugar, egg ,almond extract,milk,flour,baking powder,melted butter,Glaze:powdered sugar(sifted),vanilla extract milk, sliced almonds",
+                    "price": 25.59,
+                    "rating": 4.5,
+                    "image": "toscacake.jpg"
+                
+                }
+    },
+    {
+        "pk": 31,
+                "model": "products.product",
+                "fields": {
+                    "category": 5,
+                    "sku": "pg0058",
+                    "name": "Saffron Buns",
+                    "description": "(buns)-saffron threads,yeast,sugar,milk,egg,butter,salt,flour,raisins,Glaze:egg, water",
+                    "price": 36.59,
+                    "rating": 4.6,
+                    "image": "swedishsaffronbuns.jpg"
+                
+                }
+    },
+    {
+        "pk": 32,
+                "model": "products.product",
+                "fields": {
+                    "category": 5,
+                    "sku": "pg0060",
+                    "name": "Veg Sandwich Wrap",
+                    "description": "Flatbreads are wheat tortillas, lavash, or pita; the filling may include shredded lettuce, diced tomato or pico de gallo, guacamole, sauteed mushrooms, grilled onions, cheese, and a sauce, such as ranch or honey mustard",
+                    "price": 38.59,
+                    "rating": 4.3,
+                    "image": "SandwichWrap.jpg"
+                
+                }
+    },
+    {
+        "pk": 33,
+                "model": "products.product",
+                "fields": {
+                    "category": 5,
+                    "sku": "pg0062",
+                    "name": "NonVeg Sandwich",
+                    "description": "cream cheese, tortillas,tomatoes, seeded and chopped avocados,green onions,cooked bacon, fried crisp and crumbled,salad dressing,mayonnaise,salad greens",
+                    "price": 35.59,
+                    "rating": 4.8,
+                    "image": "nonvegsandwich.jpg"
+                
+                }
+    },
+    {
+        "pk": 34,
+                "model": "products.product",
+                "fields": {
+                    "category": 5,
+                    "sku": "pg0064",
+                    "name": "Hallon kladdkaka",
+                    "description": "Butter,eggs,caster sugar,cocoa,vanilla sugar,wheat flour,raspberries,icing sugar,coconut flakes,whipping cream", 
+                    "price": 38.59,
+                    "rating": 4.6,
+                    "image": "hallonkladdkaka.jpg"
+                
+                }
+    },
+    {
+        "pk": 35,
+                "model": "products.product",
+                "fields": {
+                    "category": 5,
+                    "sku": "pg0068",
+                    "name": "Cookies",
+                    "description": "sweetened shredded coconut,sugar,pinch salt,baking powder,unsalted butter,egg,vanilla extract,all-purpose flour", 
+                    "price": 20.59,
+                    "rating": 4.2,
+                    "image": "cookies.jpg"
+                
+                }
+    },
+    {
+        "pk": 36,
+                "model": "products.product",
+                "fields": {
+                    "category": 5,
+                    "sku": "pg0070",
+                    "name": "Cardamom Bun",
+                    "description": "Milk,egg,water,sugar,all-purpose flour,cardamom seeds, butter, instant yeast,pinch salt,brown sugar, light corn syrup", 
+                    "price": 14.59,
+                    "rating": 4.5,
+                    "image": "cardamombuns.jpg"
+                
+                }
+    },
+    {
+        "pk": 37,
+                "model": "products.product",
+                "fields": {
+                    "category": 5,
+                    "sku": "pg0072",
+                    "name": "Semla",
+                    "description": "Semla (singular) or Semlor (plural) is a yeast risen bun that is flavored with cardamom and then often filled with almond paste and whipped cream, though other variants have them filled with fruit jam, chocolate or pastry cream", 
+                    "price": 45.59,
+                    "rating": 4.8,
+                    "image": "Semla.jpg"
+                
+                }
+    },
+    {
+        "pk": 38,
+                "model": "products.product",
+                "fields": {
+                    "category": 6,
+                    "sku": "pg0074",
+                    "name": "Coffee + Croissant ",
+                    "description": "warm water(110 degrees F/45 degrees C),active dry yeast,white sugar,all-purpose flour,warm milk,pinch salt,vegetable oil,unsalted butter,egg,water", 
+                    "price": 65.59,
+                    "rating": 4.8,
+                    "image": "combo.jpeg"
+                
+                }
+    },
+    {
+        "pk": 39,
+                "model": "products.product",
+                "fields": {
+                    "category": 6,
+                    "sku": "pg0076",
+                    "name": "CoupleCoffee",
+                    "description": "Cappuccino and Black coffee", 
+                    "price": 52.59,
+                    "rating": 4.8,
+                    "image": "combo1.jpg"
+                
+                }
+    },
+    {
+        "pk": 40,
+                "model": "products.product",
+                "fields": {
+                    "category": 6,
+                    "sku": "pg0078",
+                    "name": "CoupleCoffee",
+                    "description": "2 Black coffee ", 
+                    "price": 49.59,
+                    "rating": 4.8,
+                    "image": "combo2.jpg"
+                
+                }
+    },
+    {
+        "pk": 41,
+                "model": "products.product",
+                "fields": {
+                    "category": 6,
+                    "sku": "pg0080",
+                    "name": "Coffee + Chocalate cake",
+                    "description": "Latte coffee with chocolate cake", 
+                    "price": 60.59,
+                    "rating": 4.8,
+                    "image": "combo3.jpeg"
+                
+                }
+    },
+    {
+        "pk": 42,
+                "model": "products.product",
+                "fields": {
+                    "category": 6,
+                    "sku": "pg0082",
+                    "name": "Coffee Combo",
+                    "description": "Latte coffee and Cappuccino coffee", 
+                    "price": 35.59,
+                    "rating": 4.8,
+                    "image": "combo4.jpg"
+                
+                }
+    },
+    {
+        "pk": 43,
+                "model": "products.product",
+                "fields": {
+                    "category": 6,
+                    "sku": "pg0084",
+                    "name": "Green Ice Tea",
+                    "description": "Water, green tea,iced", 
+                    "price": 29.59,
+                    "rating": 4.2,
+                    "image": "greenicedtea.jpg"
                 
                 }
     }
-
 ]    
 

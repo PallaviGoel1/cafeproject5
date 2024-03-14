@@ -3,8 +3,8 @@
         "pk": 1,
         "model": "products.category",
         "fields": {
-            "name": "Coffees",
-            "friendly_name": "Coffees"
+            "name": "HotCoffees",
+            "friendly_name": "hotcoffees"
         }
     },
     {
@@ -12,23 +12,39 @@
         "model": "products.category",
         "fields": {
             "name": "Smoothies",
-            "friendly_name": "Smoothies"
+            "friendly_name": "smoothies"
         }
     },
     {
         "pk": 3,
         "model": "products.category",
         "fields": {
-            "name": "Ice-coffee",
-            "friendly_name": "Ice-coffee"
+            "name": "Cold-coffee",
+            "friendly_name": "cold-coffee"
         }
     },
     {
         "pk": 4,
         "model": "products.category",
         "fields": {
-            "name": "Fika bread",
-            "friendly_name": "Fika bread"
+            "name": "Summerspecial",
+            "friendly_name": "summerspecial"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "Fika",
+            "friendly_name": "fika"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "Combopack",
+            "friendly_name": "combopack"
         }
     }
 ]

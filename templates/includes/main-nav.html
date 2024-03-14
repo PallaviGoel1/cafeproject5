@@ -8,17 +8,18 @@
         <li class="nav-item" id="productslink">
             <a class="logo-font font-weight-bold nav-link text-light mr-5 navbar-link" href="{% url 'products' %}" id="all-products-link">
                 All Products
-            </a>
-           
+            </a>  
         </li>
-        <li class="nav-item dropdown" id="books-link">
+        <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-light mr-5 navbar-link" href="#" id="all-products-links" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Menu</a>
-                 <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                    <a href="{% url 'products' %}?category=coffees" class="dropdown-item ">Hot-coffee</a>
-                    <a href="{% url 'products' %}?category=smoothies" class="dropdown-item">Smoothies</a>
-                    <a href="{% url 'products' %}?category=coldcoffee" class="dropdown-item ">Cold-coffee</a>
-                    <a href="{% url 'products' %}?category=fikabread" class="dropdown-item ">Fika bread</a>
+                <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+                    <a href="{% url 'products' %}?category=HotCoffees" class="dropdown-item ">Hot Coffee</a>
+                    <a href="{% url 'products' %}?category=Smoothies" class="dropdown-item">Smoothies</a>
+                    <a href="{% url 'products' %}?category=Cold-coffee" class="dropdown-item ">Cold-coffee</a>
+                    <a href="{% url 'products' %}?category=Summerspecial" class="dropdown-item ">Summerspecial</a>
+                    <a href="{% url 'products' %}?category=Fika" class="dropdown-item ">Swedish Fika Idea</a>
+                </div>
 
         </li>
         <li class="nav-item dropdown" id="special-offer-link">
@@ -26,7 +27,7 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=Combopack" class="dropdown-item ">New Arrivals(combo)</a>
             </div>
         </li>
         <li class="nav-item" id="contactus-link">

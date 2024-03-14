@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-txrx^4b99b^9g!zmtdz6uow^c04sikj^)wc%b7ow^51$z)lf7f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-pallavigoel-cafeproject-7129tmu82xl.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['8000-pallavigoel-cafeproject-7129tmu82xl.ws-eu110.gitpod.io']
 
 
 # Application definition
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'contactsus',
     'crispy_forms',
     'products',
+    'bag',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap'
@@ -76,6 +77,7 @@ TEMPLATES = [
                 'django.template.context_processors.request', #allauth required
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'bag.contexts.bag_contents',
             ],
         },
     },
@@ -161,3 +163,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+FREE_DELIVERY_THRESHOLD = 50
+STANDARD_DELIVERY_PERCENTAGE = 10
