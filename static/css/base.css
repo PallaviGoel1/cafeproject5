@@ -8,10 +8,10 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
+    min-height: 100vh;
+    overflow-x: hidden;
     
 }
-
-/* from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -24,19 +24,33 @@ body {
     text-transform: uppercase;
 }
 
+.navbar-link:hover {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
+}
+
+.nav-link:active {
+    color:#333;
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+}
+
 .main-logo-link {
     width: fit-content;
 }
 
 .shop-now-button {
-    background: rgb(71, 21, 21);
+    background: rgb(97, 59, 50);
     color: white;
     min-width: 200px;
 }
 
 .btn-black {
-    background: rgba(165, 42, 42, 0.827);
-    color: rgb(234, 135, 135);
+    background: rgb(97, 59, 50);
+    color: rgb(249, 245, 245);
 }
 .btn-outline-black {
     background: white;
@@ -72,7 +86,7 @@ body {
 .home-cover {
     background-image: url("/media/bg2.jpg");
     background-size: cover;
-    height: 75vh;
+    height: 80vh;
     width: 100vw;
     overflow: hidden;
     object-fit: cover;
@@ -84,7 +98,7 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: rgb(250, 248, 248);
 	z-index: -1;
 }
 a.category-badge > span.badge:hover {
@@ -95,8 +109,8 @@ a.category-badge > span.badge:hover {
     height: 42px;
     width: 42px;
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 50px;
+    right: 50px;
 }
 
 .btt-link {
