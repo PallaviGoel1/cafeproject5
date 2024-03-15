@@ -25,4 +25,5 @@ urlpatterns = [
     path(r'contactsus/', include('contactsus.urls')),
     path('products/', include('products.urls')),
     path('bag/', include('bag.urls')),
+    path('wishlist/', include('wishlist.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

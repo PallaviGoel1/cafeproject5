@@ -131,9 +131,13 @@
     {% block content %}
     {% endblock %}
 
-    {% block postloadjs %}
-    {% endblock %}
 
+    <!-- Script -->
     
+    {% block postloadjs %}
+    <script src="{% static 'js/script.js' %}"></script>
+    {% endblock %} 
+    
+    <!-- End of Script -->
   </body>
 </html>
