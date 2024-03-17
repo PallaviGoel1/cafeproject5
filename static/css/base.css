@@ -3,13 +3,11 @@ html {
 }
 
 body {
-    
+    background-image: url("/media/bg2.jpg");
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
-    min-height: 100vh;
-    overflow-x: hidden;
     
 }
 .icon {
@@ -31,7 +29,7 @@ body {
 }
 
 .nav-link:active {
-    color:#333;
+    color:#eec0c0;
 }
 
 .navbar-toggler-icon{
@@ -45,7 +43,7 @@ body {
 .shop-now-button {
     background: rgb(97, 59, 50);
     color: white;
-    min-width: 200px;
+    min-width: 260px;
 }
 
 .btn-black {
@@ -83,14 +81,7 @@ body {
     border: 1px solid black !important;
 }
 
-.home-cover {
-    background-image: url("/media/bg2.jpg");
-    background-size: cover;
-    height: 80vh;
-    width: 100vw;
-    overflow: hidden;
-    object-fit: cover;
-}
+
 
 .overlay {
 	height: 100%;
@@ -109,11 +100,13 @@ a.category-badge > span.badge:hover {
     height: 42px;
     width: 42px;
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 60px;
+    right: 60px;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-link {
     cursor: pointer;
 }
 
