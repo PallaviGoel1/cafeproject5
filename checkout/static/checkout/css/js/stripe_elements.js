@@ -8,7 +8,7 @@
 
 var stripepublic_key = $('#id_stripe_public_key').text().slice(1, -1);
 var clientsecret = $('#id_client_secret').text().slice(1, -1);
-var stripe = Stripe(stripepublickey);
+var stripe = stripe(stripepublic_key);
 var elements = stripe.elements();
 var style = {
     base: {
@@ -51,7 +51,9 @@ form.addEventListener('submit', function(ev) {
     ev.preventDefault();
     card.update({ 'disabled': true});
     $('#submit-button').attr('disabled', true);
-    stripe.confirmCardPayment(clientSecret, {
+    $('#payment-form').fadeToggle(100);
+    $('#loading-overlay').fadeToggle(100);
+    stripe.confirmCardPayment(clientsecret, {
         payment_method: {
             card: card,
         }
@@ -64,6 +66,8 @@ form.addEventListener('submit', function(ev) {
                 </span>
                 <span>${result.error.message}</span>`;
             $(errorDiv).html(html);
+            $('#payment-form').fadeToggle(100);
+            $('#loading-overlay').fadeToggle(100);
             card.update({ 'disabled': false});
             $('#submit-button').attr('disabled', false);
         } else {
