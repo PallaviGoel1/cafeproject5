@@ -4,3 +4,5 @@ os.environ["STRIPE_PUBLIC_KEY"]= "pk_test_51OvjsnCUt5xn2cAuQHcccv2UnM6OlADvyavsY
 os.environ["STRIPE_SECRET_KEY"]= "sk_test_51OvjsnCUt5xn2cAuGrFj4u0TL6832GbnY0Y3T7VDMEYEv4zgnlmmeFV3YvfrMQ1lr53F4jCYUdSZEFMRjP8GuQTz00G6xixnT1"
 os.environ["STRIPE_WH_SECRET"] = "whsec_DhGZBuTtPLNNaQbwmX0FOSourOzAAfhp"
 os.environ["DATABASE_URL"] = "postgres://vshvzbmo:4e5cyPUGMwSGffynrLoggyDYn836z7O8@flora.db.elephantsql.com/vshvzbmo"
+os.environ.get["SECRET_KEY"] = "4yt1)f9z(b(qi-(cvt9+ybvazu_6$tg%=*0pyfd%67e-vnguj$"
+
