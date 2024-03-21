@@ -15,6 +15,9 @@ import os
 if os.path.exists("env.py"):
   import env 
 
+import os
+import dj_database_url
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -128,6 +131,11 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+#DATABASES = {
+  #  'default': dj_database_url.parse('postgres://vshvzbmo:4e5cyPUGMwSGffynrLoggyDYn836z7O8@flora.db.elephantsql.com/vshvzbmo'),
+#}
+    
 
 
 # Password validation
