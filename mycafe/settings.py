@@ -31,8 +31,8 @@ SECRET_KEY = 'django-insecure-txrx^4b99b^9g!zmtdz6uow^c04sikj^)wc%b7ow^51$z)lf7f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-pallavigoel-cafeproject-i5iah279mux.ws-eu110.gitpod.io']
-
+#ALLOWED_HOSTS = ['8000-pallavigoel-cafeproject-i5iah279mux.ws-eu110.gitpod.io']
+ALLOWED_HOSTS = ['coffeehouse.herokuapp.com', 'localhost']
 
 # Application definition
 
@@ -125,11 +125,18 @@ WSGI_APPLICATION = 'mycafe.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+        
 }
 
 #DATABASES = {
