@@ -35,7 +35,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 ALLOWED_HOSTS = [
     'coffeehouse.herokuapp.com', 
     'localhost',
-    'https://coffeehouse-fee0be3a9012.herokuapp.com/'
+    'coffeehouse-fee0be3a9012.herokuapp.com'
 ]
 
 # Application definition
