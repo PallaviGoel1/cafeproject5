@@ -32,7 +32,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 #ALLOWED_HOSTS = ['8000-pallavigoel-cafeproject-i5iah279mux.ws-eu110.gitpod.io']
-ALLOWED_HOSTS = ['coffeehouse.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = [
+    'coffeehouse.herokuapp.com', 
+    'localhost',
+    'https://coffeehouse-fee0be3a9012.herokuapp.com/'
+]
 
 # Application definition
 
