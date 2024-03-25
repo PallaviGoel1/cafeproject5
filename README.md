@@ -58,6 +58,37 @@ Main objectives concluded for this project are following:
 
 # Technologies used
 
+Tool/Language Used
+- HTML
+- CSS
+- JavaScript
+- Python
+- Django
+
+Django Package
+- Gunicorn as the server for Heroku
+- Dj_database_url to parse the database URL from the environment variables in Heroku
+- Psycopg2 as an adaptor for Python and PostgreSQL databases
+- Allauth for authentication, registration and account management
+- Stripe for processing all online and credit card purchases on the website
+- Crispy Forms to style the forms
+- Pillow to process and save all the images downloaded through the database
+
+Frameworks - Libraries - Programs Used
+- Bootstrap was used to style the website, add responsiveness and interactivity
+- Jquery - all the scripts were written using jquery library
+- Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub
+- GitHub was used to store the project's code after being pushed from Git
+- Heroku was used to deploy the live project
+- PostgreSQL Database used through Heroku
+- Drawio was used to create the database diagram, flowchart and bussiness model
+- W3C - HTML was used to validate all the HTML code
+- W3C - CSS was used to validate the CSS code
+- Fontawesome was used to add icons to the website
+- Google Chrome Dev Tools was used to check App responsiveness and debugging
+- Google Fonts was used to add the 2 fonts that were used throughout the project
+- Balsamiq was used to build the wireframes for the project
+- AWS was used to host the static files and media
 
 # Deployment
 
