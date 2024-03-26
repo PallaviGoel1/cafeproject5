@@ -30,12 +30,14 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
+# DEBUG = False
 
-#ALLOWED_HOSTS = ['8000-pallavigoel-cafeproject-i5iah279mux.ws-eu110.gitpod.io']
+# ALLOWED_HOSTS = ['8000-pallavigoel-cafeproject-i5iah279mux.ws-eu110.gitpod.io']
 ALLOWED_HOSTS = [
     'coffeehouse.herokuapp.com', 
     'localhost',
-    'coffeehouse-fee0be3a9012.herokuapp.com'
+    'coffeehouse-fee0be3a9012.herokuapp.com',
+    '8000-pallavigoel-cafeproject-0qcqo2qrnfv.ws-us110.gitpod.io'
 ]
 
 # Application definition
@@ -205,7 +207,7 @@ if 'USE_AWS' in os.environ:
 
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'coffeehousecafe'
-    AWS_S3_REGION_NAME = 'Europe(Stockholm)eu-north-1'
+    AWS_S3_REGION_NAME = 'eu-north-1'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
