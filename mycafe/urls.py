@@ -29,6 +29,7 @@ urlpatterns = [
     path('wishlist/', include('wishlist.urls')),
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
+    path('faqsview/', include('faqs.urls')),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'mycafe.views.handler404'

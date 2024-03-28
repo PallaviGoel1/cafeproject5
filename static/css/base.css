@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url("/media/bg2.jpg");
+    background-image: url("/media/bg2.jpg")no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -331,3 +331,9 @@ a.category-badge > span.badge:hover {
         padding: .25rem .5rem !important;
     }
 }
+
+#mc_embed_signup{
+    background:#fff; false;
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+    width: 600px;}

@@ -60,6 +60,7 @@ INSTALLED_APPS = [
     'wishlist',
     'checkout',
     'profiles',
+    'faqs',
     
     
 
