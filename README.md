@@ -58,6 +58,9 @@ All avaiable type are added in this page.
 
 ![special_offer_page_view](media/combopack.png)
 
+## Facebook page 
+
+![facebook_page_view](media/facebook.png)
 
 # Testing
 
