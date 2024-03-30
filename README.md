@@ -1,3 +1,6 @@
+
+## NOTE: Django is behaving randomly as all the code and files tested and pushed to GIT Pod don't function similarly next day. Most of the time Files got removed by platform. These issues did occur randomly and could not be solved even after taking tutor help. I am exhasted with these issues and felt really helpless here.
+
 # Project Overview
 This is the online portal for the coffee shop. The purpose of this porject is to provide information related to shop online to all the customers to make it easy for them to access the variety of products available in shop. In addition to that, customers can order online for their purchase.
 
@@ -15,44 +18,69 @@ Main objectives concluded for this project are following:
 # Features
 
 ## Navigation Bar
+
+Navigation bar has links for different pages on this site to which customer are supposed to navigate through in order to access related information/activity.
+
 ![Navigation_Bar](media/nav.png)
 
 
 ## Home Page
+
+This is the page where customer will land as soon as he/she will go to web url.
+
 ![Home_Page](media/homepage.png)
+
+
 ## Products Page
+
+This page has the list of all the products available for customer. Products are as well categorize further for easier navigation for cutomers.
+
 ![Product_page](media/products.png)
+
+
 ## Hot Coffee Page
+
+All avaiable type are added in this page.
+
 ![hot_coffee_view](media/hotcoffee.png)
+
+
 ## Cold Coffee Page
+
+All avaiable type are added in this page.
+
 ![cold_coffee_view](media/coldcoffee.png)
+
+
 ## Special offers(combo pack)
+
+All avaiable type are added in this page.
+
 ![special_offer_page_view](media/combopack.png)
 
 
-# Layout and Design
-
-## Flow Chart
-
-## Database
-
 # Testing
 
-## Python Validation
-
-## JavaScript Validation
-
-## HTML Validation
-
-## CSS Validation
+Various test cases were executed through out the development process to make sure that design is in line with project objective and website is fully functional. Majorly test cases can be categrized in 2 categories as GUI and functional testing.
 
 ## GUI Testing
 
+Not all the GUI test cases were passed due to inconsistancy in platform connections. Still there are a lot of falied cases but unfortunately can't proceed with solving those at the moment.
+
 ## Functional Testing
 
+All functional test case are passed.
+
 ## Lighthouse Results
+
 ![lighthouse_view](media/lighthouse.png)
+
 ## Defects
+
+Few of still outstanding defects are:
+1. Home page is not visible correctly when url is entered (random occurance)
+2. All products are not visible with respective image
+3. Payment option is not correctly visible to the customer
 
 # Technologies used
 
@@ -72,25 +100,29 @@ Django Package
 - Crispy Forms to style the forms
 - Pillow to process and save all the images downloaded through the database
 
-Frameworks - Libraries - Programs Used
-- Bootstrap was used to style the website, add responsiveness and interactivity
-- Jquery - all the scripts were written using jquery library
-- Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub
-- GitHub was used to store the project's code after being pushed from Git
-- Heroku was used to deploy the live project
-- PostgreSQL Database used through Heroku
-- Drawio was used to create the database diagram, flowchart and bussiness model
-- W3C - HTML was used to validate all the HTML code
-- W3C - CSS was used to validate the CSS code
-- Fontawesome was used to add icons to the website
-- Google Chrome Dev Tools was used to check App responsiveness and debugging
-- Google Fonts was used to add the 2 fonts that were used throughout the project
-- Balsamiq was used to build the wireframes for the project
-- AWS was used to host the static files and media
 
 # Deployment
 
+- Create Pipfile
 
-# Credits
+- In the terminal enter the command pip3 freeze > requirements.txt, and a file with all the requirements will be created.
 
+- Setting up Heroku
+    - Go to Heroku website
+    - Login to Heroku and choose Create App
+    - Click New and Create a new app
+    - Choose a name and select your location
+    - Go to the Resources tab
+    - From the Resources list select Heroku Postgres
+    - Navigate to the Deploy tab
+    - Click on Connect to Github and search for your repository
+    - Navigate to the Settings tab
+    - Reveal Config Vars and add your AWS, Database URL (from Heroku-Postgres) and Secret key.
 
+- Deployment on Heroku
+    - Go to the Deploy tab.
+    - Choose the main branch for deploying and enable automatic deployment
+    - Select manual deploy for building the App
+    - Wait until build is complete
+    - Click on Open App button
+    - Website launched now
