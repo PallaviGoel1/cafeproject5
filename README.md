@@ -11,25 +11,23 @@ Main objectives concluded for this project are following:
 - To provide possibility for user to create a profile and order with that and also to be able to order without login
 - To create a functioning website having information about all the available items in store
 
-# Agile Methodologies
-
-## User Stories
-
 
 # Features
 
 ## Navigation Bar
+![Navigation_Bar](media/nav.png)
+
 
 ## Home Page
-
+![Home_Page](media/homepage.png)
 ## Products Page
-
+![Product_page](media/products.png)
 ## Hot Coffee Page
-
+![hot_coffee_view](media/hotcoffee.png)
 ## Cold Coffee Page
-
-## Summer Drink
-
+![cold_coffee_view](media/coldcoffee.png)
+## Special offers(combo pack)
+![special_offer_page_view](media/combopack.png)
 
 
 # Layout and Design
@@ -53,7 +51,7 @@ Main objectives concluded for this project are following:
 ## Functional Testing
 
 ## Lighthouse Results
-
+![lighthouse_view](media/lighthouse.png)
 ## Defects
 
 # Technologies used
