@@ -9,7 +9,7 @@
             "description": "Black. Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm",
             "price": 35.45,
             "rating": 4.5,
-            "image": "blackcoffee.png"
+            "image": "blackcoffee1.jpg"
             
         }
     },
@@ -23,7 +23,7 @@
             "description": "A cappuccino contains equal parts of espresso, steamed and milk froth.",
             "price": 36.70,
             "rating": 4.4,
-            "image": "cappuccino.jpg"
+            "image": "cappuccinoday.jpg"
             
         }
     },
@@ -37,7 +37,7 @@
             "description": "An Americano is therefore a black coffee — unless you add milk!",
             "price": 34.70,
             "rating": 4.5,
-            "image": "Americano.jpg"
+            "image": "americanocofee.jpg"
             
         }
     },
@@ -47,7 +47,7 @@
         "fields": {
             "category": 1,
             "sku": "pg0026",
-            "name": "Turkish delight coffee",
+            "name": "Turkish-delight coffee",
             "description": " Turkish coffee is unique for its fine grind, special brewing method, and cultural significance.",
             "price": 34.50,
             "rating": 4.0,
@@ -138,7 +138,7 @@
                     "description": "The basis is that a shot of espresso is combined with a chocolate powder or syrup, followed by milk or cream. It is a variant of a latte, in the sense that it is often 1/3 espresso and 2/3 steamed milk.",
                     "price": 32.59,
                     "rating": 4.2,
-                    "image": "mochacoffee.png"
+                    "image": "Mochacoffee.png"
                 
                 }
     },
@@ -152,7 +152,7 @@
                     "description": "Con panna, which means (espresso with cream) in Italian, is a single or double shot of espresso topped with whipped cream. In France and in the United Kingdom it is known as café viennois.",
                     "price": 34.39,
                     "rating": 4.2,
-                    "image": "conpannacoffee.jpg"
+                    "image": "conpanna.jpg"
                 
                 }
     },
@@ -180,7 +180,7 @@
                     "description": "Add the sliced banana, peanut butter, brown sugar, vanilla extract, and milk to a blender.Blend the ingredients until smooth. If the smoothie is too thick, add more milk. If the smoothie is too thin, add more frozen banana. Taste and adjust the sweetness to your liking.",
                     "price": 31.59,
                     "rating": 4.4,
-                    "image": "bananasmoothie.jpg"
+                    "image": "Banana-Smoothie.jpeg"
                 
                 }
     },
@@ -194,7 +194,7 @@
                     "description": "Add the sliced banana, peanut butter, brown sugar, vanilla extract, and milk to a blender.Blend the ingredients until smooth. If the smoothie is too thick, add more milk. If the smoothie is too thin, add more frozen banana. Taste and adjust the sweetness to your liking.",
                     "price": 32.59,
                     "rating": 4.5,
-                    "image": "blueberrysmoothie.jpg"
+                    "image": "blueberry-smoothie.jpg"
                 
                 }
     },
@@ -222,7 +222,7 @@
                     "description": "n a blender or food processor, place the strawberries, milk and yogurt. Cover; blend on high speed about 30 seconds or until smooth. Pour into glasses. Garnish each with a strawberry.",
                     "price": 34.59,
                     "rating": 4.3,
-                    "image": "strawberry.jpg"
+                    "image": "strawberrysmoothie.jpg"
                 
                 }
     },
@@ -236,7 +236,7 @@
                     "description": "Bubble tea is a Taiwanese recipe made by blending a tea base with milk, fruit and fruit juices, then adding the signature “bubbles” - yummy tapioca pearls that sit at the bottom.",
                     "price": 30.59,
                     "rating": 4.4,
-                    "image": "BubbleTea.jpg"
+                    "image": "teabubble.jpg"
                 
                 }
     },
@@ -264,7 +264,7 @@
                     "description": "An espresso-based drink with whipped cream, steamed milk, chocolate syrup",
                     "price": 35.59,
                     "rating": 4.8,
-                    "image": "coffeemocha.jpg"
+                    "image": "mochacoffee1.jpeg"
                 
                 }
     },
@@ -278,7 +278,7 @@
                     "description": "Ingredients. Milk, Ice, Matcha Tea Blend [Sugar, Ground Japanese Green Tea].0",
                     "price": 32.59,
                     "rating": 4.5,
-                    "image": "IcedMatcha.jpg"
+                    "image": "icedmatcha.jpeg"
                 
                 }
     },
@@ -306,7 +306,7 @@
                     "description": "Espresso, milk, beets, cinnamon, honey and vanilla.",
                     "price": 33.59,
                     "rating": 4.2,
-                    "image": "pinkdrink.jpg"
+                    "image": "pinkStrawberry.jpg"
                 
                 }
     },
@@ -362,7 +362,7 @@
                     "description": "lemon juice, water, and a sweetener such as cane sugar, simple syrup, maple syrup or honey",
                     "price": 29.59,
                     "rating": 4.2,
-                    "image": "summer4.jpg"
+                    "image": "ssummer4.jpg"
                 
                 }
     },
@@ -376,7 +376,7 @@
                     "description": "1 thinly sliced English cucumber in a pitcher. For still infused water, add 2 quarts of water. For sparkling water, add 1 quart of seltzer during prep and a second quart just before serving.",
                     "price": 28.59,
                     "rating": 4.0,
-                    "image": "summer5.jpg"
+                    "image": "ssummer5.jpg"
                 
                 }
     },
@@ -390,7 +390,7 @@
                     "description": "Grape Juice from Concentrate (Filtered Water, Grape Juice Concentrate), Grape Juice, Ascorbic Acid (Vitamin C), Citric Acid (for Tartness).",
                     "price": 29.59,
                     "rating": 4.1,
-                    "image": "summer6.jpg"
+                    "image": "ssummer6.jpg"
                 
                 }
     },
@@ -442,11 +442,11 @@
                 "fields": {
                     "category": 5,
                     "sku": "pg0060",
-                    "name": "Veg Sandwich Wrap",
+                    "name": "Vegs Sandwich",
                     "description": "Flatbreads are wheat tortillas, lavash, or pita; the filling may include shredded lettuce, diced tomato or pico de gallo, guacamole, sauteed mushrooms, grilled onions, cheese, and a sauce, such as ranch or honey mustard",
                     "price": 38.59,
                     "rating": 4.3,
-                    "image": "SandwichWrap.jpg"
+                    "image": "vegsandwich.jpeg"
                 
                 }
     },
@@ -488,7 +488,7 @@
                     "description": "sweetened shredded coconut,sugar,pinch salt,baking powder,unsalted butter,egg,vanilla extract,all-purpose flour", 
                     "price": 20.59,
                     "rating": 4.2,
-                    "image": "cookies.jpg"
+                    "image": "jamcookies.jpeg"
                 
                 }
     },
