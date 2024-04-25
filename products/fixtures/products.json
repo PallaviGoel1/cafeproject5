@@ -9,7 +9,7 @@
             "description": "Black. Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm",
             "price": 35.45,
             "rating": 4.5,
-            "image": "media/blackcoffee1.jpg"
+            "image": "blackcoffee1.jpg"
             
         }
     },
@@ -23,7 +23,7 @@
             "description": "A cappuccino contains equal parts of espresso, steamed and milk froth.",
             "price": 36.70,
             "rating": 4.4,
-            "image": "media/cappuccinoday.jpg"
+            "image": "cappuccinoday.jpg"
             
         }
     },
