@@ -33,14 +33,14 @@ SECRET_KEY = '4yt1)f9z(b(qi-(cvt9+ybvazu_6$tg%=*0pyfd%67e-vnguj$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
-#DEBUG = False
+#DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-pallavigoel-cafeproject-i5iah279mux.ws-eu110.gitpod.io']
 ALLOWED_HOSTS = [
     'coffeehouse.herokuapp.com', 
     'localhost',
     'coffeehouse-fee0be3a9012.herokuapp.com',
-    '8000-pallavigoel-cafeproject-0fq82tmuvi7.ws-eu110.gitpod.io'
+    '8000-pallavigoel-cafeproject-piab2k4ilf6.ws-eu110.gitpod.io'
 ]
 
 # Application definition

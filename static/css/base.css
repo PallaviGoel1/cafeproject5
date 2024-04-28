@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    background-image : url('/media/b3.jpg') no-repeat center center fixed;
+    background-image : url('/media/b3.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
