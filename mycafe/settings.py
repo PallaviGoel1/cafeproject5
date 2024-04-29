@@ -32,8 +32,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '4yt1)f9z(b(qi-(cvt9+ybvazu_6$tg%=*0pyfd%67e-vnguj$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
-#DEBUG = True
+#DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-pallavigoel-cafeproject-i5iah279mux.ws-eu110.gitpod.io']
 ALLOWED_HOSTS = [

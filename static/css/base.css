@@ -5,8 +5,10 @@ html {
 body {
     background-image : url('/media/b3.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    height: calc(100vh - 164px);
+ 
     color: #555;
     font-family: 'Lato';
     

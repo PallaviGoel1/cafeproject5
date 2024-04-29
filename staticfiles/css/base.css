@@ -5,8 +5,10 @@ html {
 body {
     background-image : url('/media/b3.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-    height: calc(100vh - 164px);
+    
     color: #555;
     font-family: 'Lato';
     
@@ -339,4 +341,16 @@ a.category-badge > span.badge:hover {
     clear:left; 
     font:14px Helvetica,Arial,sans-serif; 
     width: 600px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+    position: sticky;
+    top: 100%;
+}
+.hover-fx:hover {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1.1);
 }
