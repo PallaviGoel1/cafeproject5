@@ -5,12 +5,16 @@
 {% block head_title %}{% trans "Signup" %}{% endblock %}
 
 {% block content %}
+<br>
+<br>
 <hr>
+<br>
+<br>
 <h2 class="logo-font mb-4">{% trans "Sign Up" %}</h2>
 <hr>
 
 <p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
-
+<br>
 <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
   {% csrf_token %}
   {{ form.as_p }}
