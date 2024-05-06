@@ -40,7 +40,7 @@ ALLOWED_HOSTS = [
     'coffeehouse.herokuapp.com', 
     'localhost',
     'coffeehouse-fee0be3a9012.herokuapp.com',
-    '8000-pallavigoel-cafeproject-ryz3qu54ere.ws-eu111.gitpod.io'
+    '8000-pallavigoel-cafeproject-ryz3qu54ere.ws-eu113.gitpod.io'
 ]
 
 # Application definition
