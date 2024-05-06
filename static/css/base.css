@@ -79,7 +79,7 @@ body {
 }
 
 .text-black {
-    color: #137963 !important;
+    color: #181717 !important;
 }
 
 .border-black {
@@ -128,14 +128,14 @@ a.category-badge > span.badge:hover {
 /* info container  */
 
 .bg-black {
-    background-color: #078282;
+    background-color: #0a2121;
 }
 
 .bg-lights {
-    background-color: #c6c0c4;
+    background-color: #ffffff;
 }
 .bg-dark-black {
-    background-color: #0f0e0e;
+    background-color: #ffffff;
 }
 
 /* ---- toasts */
@@ -217,7 +217,7 @@ a.category-badge > span.badge:hover {
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    color: #f7fbff; /* text-secondary */
 }
 
 .allauth-form-inner-content input {
@@ -230,7 +230,7 @@ a.category-badge > span.badge:hover {
 }
 
 .allauth-form-inner-content input::placeholder {
-    color: #aab7c4;
+    color: white;
 }
 
 .allauth-form-inner-content button,
@@ -264,7 +264,7 @@ a.category-badge > span.badge:hover {
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+	color: #383a3a; /* text-info */
 }
 
 /* Product Form */
