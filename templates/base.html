@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
         <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="{{ MEDIA_URL }}favicon.ico" type="image/x-icon">
     {% endblock %}
 
     {% block extra_css %}
@@ -39,7 +40,7 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>Coffeehouse Cafe {% block extra_title %}{% endblock %}</title>
+    <title>Coffeehouse {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
     
@@ -47,7 +48,7 @@
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0">Coffeehouse Cafe</h2>
+                    <img src="{{ MEDIA_URL }}favicon.ico"></a>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -212,7 +213,7 @@
             <div class="text-center">       
                     <p class="mb-2">Follow us on social media:</p>
                         <section class="mb-4">
-                            <a href="https://www.facebook.com/profile.php?id=61557817261008" target="_blank" rel="" aria-label="Link to facebook page" class="hover-fx">
+                            <a href="D:\project5\screenshort\facebook.png" target="_blank" rel="" aria-label="Link to facebook page" class="hover-fx">
                                 <i class="fab fa-facebook-square ms-3 h3 text-black"></i>
                             </a>
                             <a href="https://www.twitter.com" target="_blank" rel="" aria-label="Link to twitter page" class="hover-fx"><i class="fab fa-twitter-square ms-3 h3 text-black"></i></a>
