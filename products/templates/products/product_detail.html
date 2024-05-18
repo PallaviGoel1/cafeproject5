@@ -101,31 +101,7 @@
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
                     </form>
-                    <div class="pt-5">
-                        {% if user.is_authenticated and not user.is_superuser %}
-                            {% if not wishList %}
-                                <!-- add to wishlist form --> 
-                                <form action="{% url 'addtowishlist' product.id %}" method="POST">
-                                    {% csrf_token %}
-                                        <input name="current_url" type="hidden" value="{{ request.path }}"> 
-                                        <button type="submit" class="text-black btn border bg-none"><i class="far fa-heart mr-1"><span>Add to wishlist</span></i></button> 
-                                </form>
-                                        
-                            {% else %}
-                                <!-- REMOVE FROM WISHLIST FORM -->
-                                <form method="POST" action="{% url 'removefromwishlist' product.id %}">
-                                    {% csrf_token %}
-                                    <input name="current_url" type="hidden" value="{{ request.path }}">
-                                    <button type="button" class="text-black btn border pt-2 bg-none"><i class="far fa-heart mr-1"><span>Remove from wishlist</span></i></button>  
-                                </form>
-                            {% endif %}
-                            {% elif not user.is_authenticated %}
-                                <div class="d-flex align-items-center mt-4 ">
-                                    <i class="far fa-heart mr-1 text-muted"></i>
-                                    <span class="text-muted">Authenticate to add product to wishlist</span>
-                                </div>
-                        {% endif %}
-                    </div>
+                    
                 </div>
             </div>
         </div>

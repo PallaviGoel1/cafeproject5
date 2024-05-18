@@ -1,6 +1,3 @@
-
-## NOTE: Django is behaving randomly as all the code and files tested and pushed to GIT Pod don't function similarly next day. Most of the time Files got removed by platform. These issues did occur randomly and could not be solved even after taking tutor help. I am exhasted with these issues and felt really helpless here.
-
 # Project Overview
 This is the online portal for the coffee shop. The purpose of this porject is to provide information related to shop online to all the customers to make it easy for them to access the variety of products available in shop. In addition to that, customers can order online for their purchase.
 
@@ -21,14 +18,14 @@ Main objectives concluded for this project are following:
 
 Navigation bar has links for different pages on this site to which customer are supposed to navigate through in order to access related information/activity.
 
-![Navigation_Bar](media/nav.png)
+![Navigation_Bar](media/header1.png)
 
 
 ## Home Page
 
 This is the page where customer will land as soon as he/she will go to web url.
 
-![Home_Page](media/homepage.png)
+![Home_Page](media/homepage1.png)
 
 
 ## Products Page
@@ -50,6 +47,24 @@ All avaiable type are added in this page.
 All avaiable type are added in this page.
 
 ![cold_coffee_view](media/coldcoffee.png)
+
+## Smoothies
+
+All avaiable type are added in this page.
+
+![smoothies](media/smoothies.png)
+
+## Summer-special-drink
+
+All avaiable type are added in this page.
+
+![Summer-special-drink](media/summerspecial.png)
+
+## Swedish-fika
+
+All avaiable type are added in this page.
+
+![Swedish-fika](media/fika.png)
 
 
 ## Special offers(combo pack)
