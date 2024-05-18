@@ -1,16 +1,18 @@
 html {
     height: 100%;
 }
-
-body {
    
-    height: calc(100vh - 164px);
+body {  
+   
+    height: 80vh;
+    width: 100vw;
     color: #555;
     font-family: 'Lato';
     scroll-behavior: smooth;
     overflow-x: hidden;
-    
+        
 }
+
 .icon {
     align-items: center;
     display: inline-flex;
@@ -45,7 +47,7 @@ body {
 .shop-now-button {
     background: rgb(97, 59, 50);
     color: white;
-    min-width: 260px;
+    min-width: 10vw;
 }
 
 .btn-black {
@@ -90,13 +92,13 @@ body {
 .home-cover {
     background-image : url('/media/bg4.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:local;
     background-position: center;
     background-size: cover;
     height: 75vh;
     width: 100vw;
     overflow: hidden;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .overlay {
@@ -108,16 +110,17 @@ body {
 	background: rgb(250, 248, 248);
 	z-index: -1;
 }
+
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
 .btt-button {
-    height: 42px;
-    width: 42px;
+    height: 4vh;
+    width: 4vh;
     position: fixed;
-    bottom: 60px;
-    right: 60px;
+    bottom: 8vh;
+    right: 8vh;
 }
 
 .btt-link,
@@ -143,8 +146,8 @@ a.category-badge > span.badge:hover {
 
 .message-container {
     position: fixed;
-    top: 72px;
-    right: 15px;
+    top: 10vh;
+    right: 2vw;
     z-index: 99999999999;
 }
 
@@ -202,7 +205,7 @@ a.category-badge > span.badge:hover {
 }
 
 .bag-notification-wrapper {
-    height: 100px;
+    height: 10vh;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -210,9 +213,9 @@ a.category-badge > span.badge:hover {
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
+    .container {
+        max-width: 90%;
+      }
 }
 /* Allauth form formatting */
 
@@ -296,7 +299,7 @@ a.category-badge > span.badge:hover {
     border-radius: 0;
 }
 
-/* fixed top navbar only on medium and up */
+/* fixed top navbar only on medium and up
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -309,16 +312,25 @@ a.category-badge > span.badge:hover {
     .header-container {
         padding-top: 164px;
     }
-}
+}*/
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
+    /*.fixed-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }*/
+
+    /*.header-container {
+        padding-top: 10vh;
+    }*/
 
     body {
-        height: calc(100vh - 116px);
+        height: 90vh;
+        max-width: 100%;
     }
     .display-4.logo-font.text-black {
         font-size: 2rem;
@@ -362,7 +374,7 @@ a.category-badge > span.badge:hover {
     background:#fff;
     clear:left; 
     font:14px Helvetica,Arial,sans-serif; 
-    width: 600px;
+    width: 60vw;
 }
 /*500 CUSTOM ERROR PAGES */
 
@@ -383,21 +395,21 @@ a.category-badge > span.badge:hover {
 }
 
 .custom-error {
-    max-width: 460px;
+    max-width: 50vw;
     width: 100%;
     text-align: center;
     line-height: 1.4;
 }
 
 .custom-error .error-logo {
-    height: 220px;
-    line-height: 220px;
+    height: 20vw;
+    line-height: 20vw;
 }
 
 .custom-error .error-logo h1 {
     font-family: "Josefin Sans", sans-serif;
     color: yellow;
-    font-size: 220px;
+    font-size: 20vw;
     letter-spacing: 10px;
     margin: 0px;
     font-weight: 700;
