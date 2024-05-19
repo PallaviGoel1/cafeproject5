@@ -39,7 +39,7 @@ class SubscribeToNewsletter(CreateView):
                       {'add_subscriber_form': subscribe_form, })
 
 
-def mail_letter(request):
+def mail-letter(request):
     emails = Subscribers.objects.all()
     df = read_frame(emails, fieldnames=['email'])
     mail_list = df['email'].values.tolist()
