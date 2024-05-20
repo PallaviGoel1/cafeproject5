@@ -197,4 +197,5 @@ Django Package
     - Select manual deploy for building the App
     - Wait until build is complete
     - Click on Open App button
-    - Website launched now
+    - Website launched now 
+    - Deployemnt link: https://coffeehouse-fee0be3a9012.herokuapp.com/
