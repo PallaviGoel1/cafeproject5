@@ -5,12 +5,19 @@ Users can create profile to keep their information avalilabe in shop's database.
 
 In this project Django, HTML and CSS are used.
 
+![mywebsite](media/appscreenshort.png)
+
 # Project Objectives
 Main objectives concluded for this project are following:
 - To create a simple, informative and user friendly website
 - To provide possibility for user to create a profile and order with that and also to be able to order without login
 - To create a functioning website having information about all the available items in store
 
+## Flowchart
+![flowchart](media/FlowChart.png)
+
+# Agile Methodology
+As per agile mthodology, user stories were added and moved across the workflow as well. Labels were used to define the priority of each user story on the Kanban board. As user stories were completed, they were moved from the To Do, Progress, and Done lists.
 
 # Features
 
@@ -72,6 +79,53 @@ All avaiable type are added in this page.
 All avaiable type are added in this page.
 
 ![special_offer_page_view](media/combopack.png)
+
+## Contant Us
+
+![contact_us](media/contactus.png)
+
+## Footer
+
+![footer](media/footer.png)
+
+## Checkout Products
+
+![checkout_products](media/ordersummery.png)
+
+## Checkout Sucessfully
+
+ ![checkout_sucessful_message](media/paymentrecipt.png)
+
+ ## stripe Payment Page
+
+ ![payment_page](media/stripepaymentsheet.png)
+
+## Products Managment
+
+![product_management](media/product.png)
+
+
+## Login page
+
+![login_page](media/login.png)
+
+## Singup Page
+
+![Signup_Page](media/register.png)
+
+## Admin/Superuser
+
+![superuser_admin](media/admin.png)
+
+# User login
+ 
+ ## User Login 
+  ![user1](media/user2.png)
+
+  ### User Confrimation mail
+
+  ![confirmationmail_user](media/confirmationmail.png)
+
 
 ## Facebook page 
 
