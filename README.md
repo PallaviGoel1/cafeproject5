@@ -5,7 +5,7 @@ Users can create profile to keep their information avalilabe in shop's database.
 
 In this project Django, HTML and CSS are used.
 
-![mywebsite](media/appscreenshort.png)
+![mywebsite](media/APP.png)
 
 # Project Objectives
 Main objectives concluded for this project are following:
