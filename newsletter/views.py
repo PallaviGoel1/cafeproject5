@@ -6,7 +6,7 @@ from django.contrib import messages
 from django.http import HttpResponseRedirect
 from newsletter.models import Subscribers
 from django.core.mail import send_mail
-from django_pandas.io import read_frame
+#from django_pandas.io import read_frame
 
 
 class SubscribeToNewsletter(CreateView):
@@ -39,7 +39,7 @@ class SubscribeToNewsletter(CreateView):
                       {'add_subscriber_form': subscribe_form, })
 
 
-def mail-letter(request):
+def mail_letter(request):
     emails = Subscribers.objects.all()
     df = read_frame(emails, fieldnames=['email'])
     mail_list = df['email'].values.tolist()

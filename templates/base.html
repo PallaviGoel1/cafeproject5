@@ -5,6 +5,7 @@
     <head>
 
     {% block meta %}
+    <!-- Required meta tags -->
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,6 +15,7 @@
     {% endblock %}
 
     {% block corecss %}
+    <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
@@ -25,7 +27,7 @@
     {% endblock %}
 
     {% block corejs %}
-        <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/25560d89ea.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -45,28 +47,17 @@
 
 <body>
     <header class="container-fluid">
-        <div id="topnav" class="row bg-white pt-lg-2 d-sm-flex"> <!--d-none-->
-            <div class="col-12 col-lg-6 col-xl-4 my-auto py-1 py-lg-0 text-center text-lg-left d-block">
+        <div id="topnav" class="row pt-lg-2 d-lg-flex"> <!--d-none-->
+            <!--  <div class="col-12 col-lg-6 col-xl-4 my-auto py-1 py-lg-0 text-center text-lg-left d-block"> --> 
+            <div class="col-12 col-lg-6 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
                     <h2 class="logo-font text-black my-0">Coffeehouse cafe</h2> 
                 </a>
             </div>
 
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 d-none d-xl-block">
-                <form method="GET" action="{% url 'products' %}">
-                    <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
-                        <div class="input-group-append">
-                            <button class="form-control btn btn-black border border-black rounded-0" type="submit">
-                                <span class="icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 d-none d-xl-block">
+    
+         <!--   <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 d-none d-xl-block">-->
+            <div class="col-12 col-lg-6 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -89,7 +80,14 @@
                             {% endif %}
                         </div>
                     </li>
-                      
+                    <li class="list-inline-item">
+                        <a href="#" class="text-black nav-link">
+                            <div class="text-center">
+                                <i class="fas fa-heart fa-lg"></i>
+                                <p class="my-0">Wishlist</p>
+                            </div>
+                        </a>
+                    </li>
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
                             <div class="text-center">
@@ -111,7 +109,7 @@
         <div class="row bg-dark-black">
             <nav class="navbar navbar-expand-lg w-100 navbar-dark">
                 <button class="navbar-toggler border-black" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="true" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon text-white"></span>
                 </button>
                 
                 {% include 'includes/main-nav.html' %}
@@ -119,7 +117,7 @@
             </nav>
         </div>
     </header>
-
+   
     {% if messages %}
         <div class="message-container">
             {% for message in messages %}
@@ -146,7 +144,7 @@
    
     <!-- Footer -->
     
-    <!--<div class="text-center footer">-->
+    <div class="text-center footer">
         <footer class="bg-lights text-black pt-md-4 pb-4">
             <div class="col-12 col-xl-11 mx-auto"> 
                 <div class="d-md-flex flex-row-reverse text-black" style="justify-content: center;">
@@ -155,69 +153,47 @@
                             <p class="mb-4 subscriber h4 text-black" id="subscriber">
                                 Subscribe To Our Newsletter
                             </p>
-                            <div id="mc_embed_shell">
-                                <div id="mc_embed_signup">
-                                    <form action="https://gmail.us22.list-manage.com/subscribe/post?u=d57f27dd2b7c6d667c2b6c395&amp;id=924c8a5405&amp;f_id=000bc0e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                                        <div id="mc_embed_signup_scroll"><h2>Subscribe</h2>
-                                            <div class="indicates-required"><span class="asterisk">*</span> indicates required
-                                            </div>
-                                            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
-                                            </div>
-                                            <div id="mce-responses" class="clear foot">
-                                                <div class="response" id="mce-error-response" style="display: none;">
-                                                </div>
-                                                <div class="response" id="mce-success-response" style="display: none;">
-                                                </div>
-                                            </div>
-                                            <!--
-                                            <div aria-hidden="true" style="position: absolute;">
-                                            real people should not fill this in and expect good things - do not remove this or risk form bot signups
-                                            <input type="text" name="b_d57f27dd2b7c6d667c2b6c395_924c8a5405" tabindex="-1" value="">
-                                            </div>
-                                            -->
-                                            <div class="optionalParent">
-                                                <div class="clear foot">
-                                                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
-                                                    <p style="margin: 0px auto;"><a href="http://eepurl.com/iM0Gc-" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"></span></a></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-6 pt-4 pt-md-0 col-md-6 mx-auto">
-                                <div class="d-lg-flex justify-content-between col-md-10 p-0 mx-auto">
-                                    <div class="d-flex flex-column mb-3 mb-lg-0 text-center">
-                                        <a class="hover-underline text-black mb-3" href="{% url 'products' %}">All Products</a>
-                                        <a class="hover-underline text-black mb-3" rel="noopener nofollow" href="https://www.termsfeed.com/live/c15cf3cc-837b-4c37-8899-b3db77f5f61f" target="_blank">Privacy And Policy</a>
-                                        <a class="hover-underline text-black mb-3" rel="noopener nofollow" href="https://www.termsandcondiitionssample.com/live.php?token=LWcXhH3Q7WFjeWzq7SkPxEtmoGiWtQf1" target="_blank">Terms & Conditions</a>
-                                        
-                                    </div>
-                                </div>
-                            </div>
+                            <form method="POST" action="{% url 'newsletter' %}">
+                                {% csrf_token %} {{ add_subscriber_form.as_p }}
+                                <span id="text">
+                                <p>
+                                    <label for="newsletter_email">Enter your email:</label>
+                                    <input type="text" name="email" id="newsletter_email" maxlength="320" required="">
+                                </p>
+                                </span>
+                                <button class="btn btn-info btn-block subscribe" type="submit">Subscribe</button>
+                            </form>            
                         </div>
                     </div>
-                </div>
+                    <div class="col-6 pt-4 pt-md-0 col-md-6 mx-auto">
+                        <div class="d-lg-flex justify-content-between col-md-10 p-0 mx-auto">
+                            <div class="d-flex flex-column mb-3 mb-lg-0 text-center">
+                                <a class="hover-underline text-black mb-3" href="{% url 'products' %}">All Products</a>
+                                <a class="hover-underline text-black mb-3" rel="noopener nofollow" href="https://www.termsfeed.com/live/c15cf3cc-837b-4c37-8899-b3db77f5f61f" target="_blank">Privacy And Policy</a>
+                                <a class="hover-underline text-black mb-3" rel="noopener nofollow" href="https://www.termsandcondiitionssample.com/live.php?token=LWcXhH3Q7WFjeWzq7SkPxEtmoGiWtQf1" target="_blank">Terms & Conditions</a>
+                                        
+                            </div>
+                        <div class="text-center">       
+                            <p class="mb-2">Follow us on social media:</p>
+                                <section class="mb-4">
+                                    <a href="https://www.facebook.com/profile.php?id=61559849935791" target="_blank" rel="" aria-label="Link to facebook page" class="hover-fx">
+                                        <i class="fab fa-facebook-square ms-3 h3 text-black"></i>
+                                    </a>
+                                    <a href="https://www.twitter.com" target="_blank" rel="" aria-label="Link to twitter page" class="hover-fx"><i class="fab fa-twitter-square ms-3 h3 text-black"></i></a>
+                                    <a href="https://www.instagram.com" target="_blank" rel="" aria-label="Link to instagram page" class="hover-fx"><i class="fab fa-instagram-square ms-3 h3 text-black"></i></a>
+                                    <a href="https://www.youtube.com" target="_blank" rel="" aria-label="Link to youtube page" class="hover-fx"><i class="fab fa-youtube-square ms-3 h3 text-black"></i></a>
+                                </section>
+                                
+                            <p class="mb-0 Copyright">Copyright &copy;Coffeehouse cafe 2024</p>
+                        </div>
+                    </div> 
+                </div>   
             </div>
-            
-            <div class="text-center">       
-                    <p class="mb-2">Follow us on social media:</p>
-                        <section class="mb-4">
-                            <a href="https://www.facebook.com/profile.php?id=61559849935791" target="_blank" rel="" aria-label="Link to facebook page" class="hover-fx">
-                                <i class="fab fa-facebook-square ms-3 h3 text-black"></i>
-                            </a>
-                            <a href="https://www.twitter.com" target="_blank" rel="" aria-label="Link to twitter page" class="hover-fx"><i class="fab fa-twitter-square ms-3 h3 text-black"></i></a>
-                            <a href="https://www.instagram.com" target="_blank" rel="" aria-label="Link to instagram page" class="hover-fx"><i class="fab fa-instagram-square ms-3 h3 text-black"></i></a>
-                            <a href="https://www.youtube.com" target="_blank" rel="" aria-label="Link to youtube page" class="hover-fx"><i class="fab fa-youtube-square ms-3 h3 text-black"></i></a>
-                        </section>
-                        
-                    <p class="mb-0 Copyright">Copyright &copy;Coffeehouse cafe 2024</p>
-            </div>
-        </div>    
+        </div>
     </footer>
+</div>
 
     <!-- End of footer -->
-
     <!-- Script -->
     
     {% block postloadjs %}
@@ -225,22 +201,7 @@
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
-    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-    <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();
-        fnames[0]='EMAIL';
-        ftypes[0]='email';
-        fnames[1]='FNAME';
-        ftypes[1]='text';
-        fnames[2]='LNAME';
-        ftypes[2]='text';
-        fnames[3]='ADDRESS';
-        ftypes[3]='address';
-        fnames[4]='PHONE';
-        ftypes[4]='phone';
-        fnames[5]='BIRTHDAY';
-        ftypes[5]='birthday';
-        }(jQuery));var $mcj = jQuery.noConflict(true);
-    </script>
+    
     {% endblock %} 
     
     <!-- End of Script -->
