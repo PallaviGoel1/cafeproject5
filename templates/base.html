@@ -155,12 +155,12 @@
                             </p>
                             <form method="POST" action="{% url 'newsletter' %}">
                                 {% csrf_token %} {{ add_subscriber_form.as_p }}
-                                <span id="text">
                                 <p>
                                     <label for="newsletter_email">Enter your email:</label>
                                     <input type="text" name="email" id="newsletter_email" maxlength="320" required="">
+                                    
                                 </p>
-                                </span>
+                                <span id="text"></span>
                                 <button class="btn btn-info btn-block subscribe" type="submit">Subscribe</button>
                             </form>            
                         </div>
