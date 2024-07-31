@@ -6,7 +6,7 @@ from django.contrib import messages
 from django.http import HttpResponseRedirect
 from newsletter.models import Subscribers
 from django.core.mail import send_mail
-#from django_pandas.io import read_frame
+from django_pandas.io import read_frame
 
 
 class SubscribeToNewsletter(CreateView):
