@@ -63,11 +63,10 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'newsletter',
+    'faqs',
     
     
-    
-
-     # Other
+    # Other
     'crispy_forms',
     'storages',
 
@@ -103,12 +102,12 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
                 'bag.contexts.bag_contents',
-                #'cafeproject5.context_processors.add_subcription_form_to_context',
+                #'mycafe.context_processors.add_subscription_form_to_context',
             ],
             'builtins': [
                 'crispy_forms.templatetags.crispy_forms_tags',
                 'crispy_forms.templatetags.crispy_forms_field',
-            ]
+            ],
         },
     },
 ]
@@ -134,13 +133,13 @@ ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
+ACCOUNT_EMAIL_VERIFICATION = "None"
 
 WSGI_APPLICATION = 'mycafe.wsgi.application'
 
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
@@ -151,9 +150,12 @@ else:
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        },
+        'test': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'test.sqlite3'),
         }
-        
-}
+    }
 
 #DATABASES = {
   #  'default': dj_database_url.parse('postgres://vshvzbmo:4e5cyPUGMwSGffynrLoggyDYn836z7O8@flora.db.elephantsql.com/vshvzbmo'),
@@ -219,6 +221,7 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 if 'USE_AWS' in os.environ:
+
       # Cache control
     AWS_S3_OBJECT_PARAMETERS = {
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',

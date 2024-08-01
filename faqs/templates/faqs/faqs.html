@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'static/css/base.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container-fluid">
+        <div class="col mt-3">
+            <h2 class="logo-font text-black text-center">FAQ's</h2>
+            <hr class="hr-line">
+            <hr class="w-50 mb-1">
+            <div class="col-lg-6 faqs-list text-black ">
+                {% for faq in faqs %}
+                <hr class="hr-line">
+                <button class="faqs-questions">{{ faq.question }}</button>
+                <div class="faqsbody"><p class="faqsanswer mt-2 text-left">{{ faq.answer }}</p></div>
+                <hr class="hr-line">
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock%}
+
+{% block postloadjs %}
+<script>
+
+    var que = document.getElementsByClassName("faqs-questions");
+    var i;
+
+    for (i = 0; i < que.length; i++) {
+    que[i].addEventListener("click", function() {
+        this.classList.toggle("actives");
+        var faqsbody = this.nextElementSibling;
+        if (faqsbody.style.display === "block") {
+            faqsbody.style.display = "none";
+        } else {
+            faqsbody.style.display = "block";
+        }
+    });
+    }
+
+</script>
+<script src="{% static 'js/script.js' %}"></script>
+
+{% endblock%}
