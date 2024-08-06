@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '4yt1)f9z(b(qi-(cvt9+ybvazu_6$tg%=*0py
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = 'DEVELOPMENT' in os.environ
-DEBUG = False
+DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-pallavigoel-cafeproject-i5iah279mux.ws-eu110.gitpod.io']
 ALLOWED_HOSTS = [
