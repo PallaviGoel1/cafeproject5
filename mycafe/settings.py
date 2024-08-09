@@ -40,7 +40,7 @@ ALLOWED_HOSTS = [
     'coffeehouse.herokuapp.com', 
     'localhost',
     'coffeehouse-fee0be3a9012.herokuapp.com',
-    '8000-pallavigoel-cafeproject-4z85udm429h.ws.codeinstitute-ide.net'
+    '8000-pallavigoel-cafeproject-rbyszil5zco.ws.codeinstitute-ide.net'
 ]
 
 # Application definition
@@ -123,7 +123,7 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
-SITE_ID= 1
+SITE_ID = 3
 
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
