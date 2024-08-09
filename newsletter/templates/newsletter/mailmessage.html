@@ -15,13 +15,14 @@
         <div class="row pt-5">
             <div class="col-12 col-md-6 offset-md-3">
                 <h2 class="logo-font mb-4">Newsletter</h2>
-                <h5 class="text-muted"></h5>
+                <h5 class="text-muted text-black"></h5>
                 <hr>
 
                 <div class="card-body ">
                     <form method="POST" action="{% url 'mail-letter' %}" class="d-block">
                         {% csrf_token %}
                         {{ add_mailmeassage }}
+                        <br>
                         <input class="btn btn-outline-black rounded-0 w-25" type="submit" value="Send Message">
                     </form>
                 </div>
