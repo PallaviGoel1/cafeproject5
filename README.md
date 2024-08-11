@@ -273,7 +273,7 @@ Various test cases were executed throughout the development process to make sure
 |TC.025|Contact message received|Send a message via contact us screen -> login as admin -> check contact us message|Latest message should be visible on the top of list|Fail|BUG.05|Pass|
 |TC.026|My Account link without logged in|Click on 'My Account' link|Items in the link should be register and login|Pass|None|Pass|
 |TC.027|My Account -> Register link|Click on 'My Account -> Register' link|A screen with the form for registration should be visible|Pass|None|Pass|
-|TC.028|Registration completion|Fill in the information on registration page and click on submit|Registration should be completed successfully|Pass|None|Pass|
+|TC.028|Registration completion|Fill in the information on registration page and click on submit|Registration should be completed successfully and user should be logged in|Pass|None|Pass|
 |TC.029|Registration mail sent|Check emails after successful registration|A verification mail should be sent to mentioned mail id for user|Pass|None|Pass|
 |TC.030|My Account -> Login link|Click on 'My Account -> Login' link|A form for login should be visible|Pass|None|Pass|
 |TC.031|Login unsuccessful|Enter wrong login information and click on login|Login failure message should be displayed|Pass|None|Pass|
