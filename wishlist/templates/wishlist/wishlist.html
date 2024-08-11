@@ -18,7 +18,7 @@
     <div class="container-fluid">
         <div class="col text-center mt-3">
             <h2 class="logo-font text-black">Wishlist</h2>
-            <!-- <hr class="w-50 mb-1"> -->
+            <!-- ADD FILTER IN WISHLIST-->
             <div class="row">
                 <div class="product-container col-10 offset-1">
                     <div class="row mt-1 mb-2">
@@ -53,7 +53,7 @@
                         {% for product in wishlist %}
                             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                                 <div class="card h-100 border-0 mt-2">
-                                    <!-- ADD PRODUCT COVER -->
+                                    <!-- ADD PRODUCT IN WISHLIST  -->
                                     {% if product.image %}
                                     <a href="{% url 'product_detail' product.id %}">
                                         <img class="card-img-top product-img " src="{{ product.image.url }}" alt="{{ product.name }}">
