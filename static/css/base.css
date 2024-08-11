@@ -377,17 +377,6 @@ a.category-badge > span.badge:hover {
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 575px) {
-    /*.fixed-top {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 5vh;
-    }*/
 
     body {
         height: 90vh;

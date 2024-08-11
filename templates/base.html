@@ -147,7 +147,7 @@
     <div class="text-center footer">
         <footer class="bg-lights text-black pt-md-4 pb-4">
             <div class="col-12 col-xl-11 mx-auto"> 
-                <div class="d-md-flex flex-row-reverse text-black" style="justify-content: center;">
+                <div class="d-md-flex flex-row-reverse text-black">
                     <div class="col-12 pb-4 pb-md-0 col-md-6 text-center">
                         <div class="col-10 pt-4 p-0 pt-md-0 mx-auto">
                             <p class="mb-4 subscriber h4 text-black" id="subscriber">
@@ -157,11 +157,10 @@
                                 {% csrf_token %} {{ add_subscriber_form.as_p }}
                                 <p>
                                     <label for="newsletter_email">Enter your email:</label>
-                                    <input type="text" name="email" id="newsletter_email" maxlength="320" required="">
-                                    
+                                    <input type="text" name="email" id="newsletter_email" maxlength="320" required="">  
                                 </p>
                                 <span id="text"></span>
-                                <button class="btn btn-info btn-black subscribe" type="submit">Subscribe</button>
+                                <button class="btn btn-info btn-black subscribe" type="submit" style="width: auto;">Subscribe</button>
                             </form>            
                         </div>
                     </div>
