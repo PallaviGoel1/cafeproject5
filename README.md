@@ -367,3 +367,12 @@ Django Package
     - Click on Open App button
     - Website launched now 
     - Deployment link: https://coffeehouse-fee0be3a9012.herokuapp.com/
+
+# Credits
+
+- Google database was used to take reference for text used in the website
+- This is website where no real coffee house is being refrenced
+- All the images are captured from google database
+- Code institute taining material is refernced for most of the functionality in this website
+- Some of the coding is referenced from sources available on google
+ 
